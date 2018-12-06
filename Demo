@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>My First Prjoect</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+    
+        table{
+            
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 50%
+            
+        }
+        
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        
+        }
+        th{
+            
+            background-color: beige;
+        }
+        
+        #top {
+            font-size: 50px;
+            font-display: block;
+        }
+        
+        #middle {
+            font-size: 20px;
+            font-display: block;
+            font-family: cursive;
+        }
+        
+          #last {
+            font-size: 10px;
+            font-display: block;
+            font-family:sans-serif;
+        }
+        
+        
+        .name {
+            font-weight: bold;
+        }
+         
+    </style>
+    </head>
+ 
+    
+    
+<body>
+    
+<h1 >Welcome to my First web Page</h1>
+    <h1>This is the second line</h1>
+    
+   <input  type="text" placeholder="Enter user id" name="Username">
+    <input type="text" placeholder="Enter password" name="Password">
+    <button>Login!</button>
+    
+    <p style="color: blanchedalmond;text-align: center">This is my first paragraph</p>
+    </body>
+    
+    <div>
+        Hello, we are doing testing!!
+    </div>
+    <br>
+    
+    
+    <table>
+    
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Years in Office</th>
+        
+        
+        
+        </tr>
+        
+    <tr>
+        <td>Suraj 
+        </td>
+        <td>Singh</td>
+        <td>2010-2015</td>
+        
+        </tr>
+    <tr>
+        <td>Himashu</td>
+        <td>Gupta</td>
+        <td>1000-1010</td>
+        </tr>
+    
+    
+    
+    
+    </table>
+    
+    
+    <div id="top">
+        
+        This is in the<span class="name">top</span> of my web page 
+    </div>
+    
+    <div id="middle">
+        
+        This is in the<span class="name">middle</span> of my web page 
+    </div>
+    
+    
+    <div id="last">
+        
+        This is in the<span class="name">end</span> of my web page 
+    </div>
+    
+    
+</html>
